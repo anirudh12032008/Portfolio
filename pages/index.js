@@ -98,7 +98,7 @@ export default function Home({ blogs, profile }) {
           <div>
             <a href="/">
              <h2 className='text-white text-2xl font-bold'>{profile.title}</h2>
-            </a>
+            
           </div>
           <div className="hidden lg:block">
             <ul className="flex items-center">
@@ -106,7 +106,7 @@ export default function Home({ blogs, profile }) {
               <li className="group pl-6">
 
                 <a href='#about'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span></a>
+                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -122,7 +122,7 @@ export default function Home({ blogs, profile }) {
               <li className="group pl-6">
 
               <a href='#portfolio'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span></a>
+                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -130,7 +130,7 @@ export default function Home({ blogs, profile }) {
               <li className="group pl-6">
 
               <a href='#clients'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span></a>
+                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -138,7 +138,7 @@ export default function Home({ blogs, profile }) {
               <li className="group pl-6">
 
               <a href='#work'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span></a>
+                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -146,7 +146,7 @@ export default function Home({ blogs, profile }) {
               <li className="group pl-6">
 
               <a href='#statistics'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Statistics</span></a>
+                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Statistics</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -154,7 +154,7 @@ export default function Home({ blogs, profile }) {
               <li className="group pl-6">
 
               <a href='#blog'><span
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Blog</span></a>
+                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Blog</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -266,21 +266,21 @@ export default function Home({ blogs, profile }) {
                   </div>
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  <Link><a href={profile.facebook}>
+                  <Link href={profile.facebook}>
                     <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-                  </a></Link>
-                  <Link><a href={profile.twitter} className="pl-4">
+                  </Link>
+                  <Link href={profile.twitter} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-                  </a></Link>
-                  <Link><a href={profile.youtube} className="pl-4">
+                  </Link>
+                  <Link href={profile.youtube} className="pl-4">
                     <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-                  </a></Link>
-                  <Link><a href={profile.discord} className="pl-4">
+                  </Link>
+                  <Link href={profile.discord} className="pl-4">
                     <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-                  </a></Link>
-                  <Link><a href={profile.instagram} className="pl-4">
+                  </Link>
+                  <Link href={profile.instagram} className="pl-4">
                     <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-                  </a></Link>
+                  </Link>
                 </div>
               </div>
               <Link href={'/blogs'}><div className="buttons text-center md:text-left">
@@ -313,21 +313,21 @@ export default function Home({ blogs, profile }) {
                 </div>
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                <Link><a href={profile.facebook}>
+                <Link href={profile.facebook}>
                   <i className="bx bxl-facebook-square text-2xl text-purple-600 hover:text-yellow"></i>
-                </a></Link>
-                <Link><a href={profile.twitter} className="pl-4">
+                </Link>
+                <Link href={profile.twitter} className="pl-4">
                   <i className="bx bxl-twitter text-2xl text-purple-600 hover:text-yellow"></i>
-                </a></Link>
-                <Link><a href={profile.youtube} className="pl-4">
+                </Link>
+                <Link href={profile.youtube} className="pl-4">
                   <i className="bx bxl-dribbble text-2xl text-purple-600 hover:text-yellow"></i>
-                </a></Link>
-                <Link><a href={profile.discord} className="pl-4">
+                </Link>
+                <Link href={profile.discord} className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-purple-600 hover:text-yellow"></i>
-                </a></Link>
-                <Link><a href={profile.instagram} className="pl-4">
+                </Link>
+                <Link href={profile.instagram} className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-purple-600 hover:text-yellow"></i>
-                </a></Link>
+                </Link>
               </div>
             </div>
           </div>
@@ -482,18 +482,18 @@ export default function Home({ blogs, profile }) {
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-apple.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a></Link>
-          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          </Link>
+          <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-stripe.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a></Link>
-          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          </Link>
+          <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-fedex.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a></Link>
-          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          </Link>
+          <Link href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-microsoft.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a></Link>
+          </Link>
         </div>
       </div>
 
@@ -735,7 +735,7 @@ export default function Home({ blogs, profile }) {
                   elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
               </div>
-            </a>
+            
             <a href="/post" className="shadow">
               <div style={{"backgroundImage": "url(/assets/img/post-03.png)"}}
                 className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
@@ -751,7 +751,7 @@ export default function Home({ blogs, profile }) {
                   elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
               </div>
-            </a> */}
+             */}
           </div>
         </div>
       </div>
@@ -853,21 +853,21 @@ export default function Home({ blogs, profile }) {
               © Copyright 2022. All right reserved, made with <i className="bx bx-heart text-white text-2xl"></i> by Anirudh Sahu
             </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-              <Link><a href={profile.facebook}>
+              <Link href={profile.facebook}>
                 <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-              </a></Link>
-              <Link><a href={profile.twitter} className="pl-4">
+              </Link>
+              <Link href={profile.twitter} className="pl-4">
                 <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-              </a></Link>
-              <Link><a href={profile.youtube} className="pl-4">
+              </Link>
+              <Link href={profile.youtube} className="pl-4">
                 <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-              </a></Link>
-              <Link><a href={profile.discord} className="pl-4">
+              </Link>
+              <Link href={profile.discord} className="pl-4">
                 <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-              </a></Link>
-              <Link><a href={profile.instagram} className="pl-4">
+              </Link>
+              <Link href={profile.instagram} className="pl-4">
                 <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-              </a></Link>
+              </Link>
             </div>
           </div>
         </div></></>
