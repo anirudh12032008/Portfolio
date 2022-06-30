@@ -127,17 +127,17 @@ const Post = ({ blog, profile, author }) => {
 
           </div>
           <div className="mt-10 flex justify-between border-t border-lila py-12">
-            <a href="/" className="flex items-center">
+            <Link><a href="/" className="flex items-center">
               <i className="bx bx-left-arrow-alt text-2xl text-primary"></i>
               <span
                 className="block pl-2 font-body text-lg font-bold uppercase text-primary md:pl-5">Previous
                 Post</span>
-            </a>
-            <a href="/" className="flex items-center">
+            </a></Link>
+            <Link><a href="/" className="flex items-center">
               <span className="block pr-2 font-body text-lg font-bold uppercase text-primary md:pr-5">Next
                 Post</span>
               <i className="bx bx-right-arrow-alt text-2xl text-primary"></i>
-            </a>
+            </a></Link>
           </div>
           <div
             className="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20">
@@ -154,21 +154,21 @@ const Post = ({ blog, profile, author }) => {
 
               </p>
               <div className="flex items-center justify-center pt-5 md:justify-start">
-                <a href="/">
+                <Link><a href="/">
                   <i className="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"></i>
-                </a>
-                <a href="/" className="pl-4">
+                </a></Link>
+                <Link><a href="/" className="pl-4">
                   <i className="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
-                </a>
-                <a href="/" className="pl-4">
+                </a></Link>
+                <Link><a href="/" className="pl-4">
                   <i className="bx bxl-dribbble text-2xl text-primary hover:text-yellow"></i>
-                </a>
-                <a href="/" className="pl-4">
+                </a></Link>
+                <Link><a href="/" className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
-                </a>
-                <a href="/" className="pl-4">
+                </a></Link>
+                <Link><a href="/" className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-primary hover:text-yellow"></i>
-                </a>
+                </a></Link>
               </div>
             </div>
           </div>
@@ -182,21 +182,21 @@ const Post = ({ blog, profile, author }) => {
           © Copyright 2022. All right reserved, Made with <i className="bx bx-heart text-white text-lg"></i> by Anirudh
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-          <a href={profile.facebook}>
+          <Link><a href={profile.facebook}>
             <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href={profile.twitter} className="pl-4">
+          </a></Link>
+          <Link><a href={profile.twitter} className="pl-4">
             <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href={profile.youtube} className="pl-4">
+          </a></Link>
+          <Link><a href={profile.youtube} className="pl-4">
             <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href={profile.discord} className="pl-4">
+          </a></Link>
+          <Link><a href={profile.discord} className="pl-4">
             <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href={profile.instagram} className="pl-4">
+          </a></Link>
+          <Link><a href={profile.instagram} className="pl-4">
             <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-          </a>
+          </a></Link>
         </div>
       </div>
     </div>

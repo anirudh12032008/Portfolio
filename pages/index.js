@@ -266,21 +266,21 @@ export default function Home({ blogs, profile }) {
                   </div>
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  <a href={profile.facebook}>
+                  <Link><a href={profile.facebook}>
                     <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-                  </a>
-                  <a href={profile.twitter} className="pl-4">
+                  </a></Link>
+                  <Link><a href={profile.twitter} className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-                  </a>
-                  <a href={profile.youtube} className="pl-4">
+                  </a></Link>
+                  <Link><a href={profile.youtube} className="pl-4">
                     <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-                  </a>
-                  <a href={profile.discord} className="pl-4">
+                  </a></Link>
+                  <Link><a href={profile.discord} className="pl-4">
                     <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-                  </a>
-                  <a href={profile.instagram} className="pl-4">
+                  </a></Link>
+                  <Link><a href={profile.instagram} className="pl-4">
                     <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-                  </a>
+                  </a></Link>
                 </div>
               </div>
               <Link href={'/blogs'}><div className="buttons text-center md:text-left">
@@ -313,21 +313,21 @@ export default function Home({ blogs, profile }) {
                 </div>
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                <a href={profile.facebook}>
+                <Link><a href={profile.facebook}>
                   <i className="bx bxl-facebook-square text-2xl text-purple-600 hover:text-yellow"></i>
-                </a>
-                <a href={profile.twitter} className="pl-4">
+                </a></Link>
+                <Link><a href={profile.twitter} className="pl-4">
                   <i className="bx bxl-twitter text-2xl text-purple-600 hover:text-yellow"></i>
-                </a>
-                <a href={profile.youtube} className="pl-4">
+                </a></Link>
+                <Link><a href={profile.youtube} className="pl-4">
                   <i className="bx bxl-dribbble text-2xl text-purple-600 hover:text-yellow"></i>
-                </a>
-                <a href={profile.discord} className="pl-4">
+                </a></Link>
+                <Link><a href={profile.discord} className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-purple-600 hover:text-yellow"></i>
-                </a>
-                <a href={profile.instagram} className="pl-4">
+                </a></Link>
+                <Link><a href={profile.instagram} className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-purple-600 hover:text-yellow"></i>
-                </a>
+                </a></Link>
               </div>
             </div>
           </div>
@@ -482,18 +482,18 @@ export default function Home({ blogs, profile }) {
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-apple.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a>
-          <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          </a></Link>
+          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-stripe.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a>
-          <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          </a></Link>
+          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-fedex.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a>
-          <a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          </a></Link>
+          <Link><a href="/" className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-microsoft.jpeg" className="w-full shadow" alt="portfolio image" />
-          </a>
+          </a></Link>
         </div>
       </div>
 
@@ -853,21 +853,21 @@ export default function Home({ blogs, profile }) {
               © Copyright 2022. All right reserved, made with <i className="bx bx-heart text-white text-2xl"></i> by Anirudh Sahu
             </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-              <a href={profile.facebook}>
+              <Link><a href={profile.facebook}>
                 <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href={profile.twitter} className="pl-4">
+              </a></Link>
+              <Link><a href={profile.twitter} className="pl-4">
                 <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href={profile.youtube} className="pl-4">
+              </a></Link>
+              <Link><a href={profile.youtube} className="pl-4">
                 <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href={profile.discord} className="pl-4">
+              </a></Link>
+              <Link><a href={profile.discord} className="pl-4">
                 <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href={profile.instagram} className="pl-4">
+              </a></Link>
+              <Link><a href={profile.instagram} className="pl-4">
                 <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-              </a>
+              </a></Link>
             </div>
           </div>
         </div></></>

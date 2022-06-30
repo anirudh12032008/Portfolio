@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const NavBar = ({ profile }) => {
@@ -8,73 +9,73 @@ const NavBar = ({ profile }) => {
         <div className="w-full z-50 top-0 py-3 sm:py-5  bg-primary ">
           <div className="container flex items-center justify-between mx-auto">
             <div className=' '>
-              <a href="/">
+              <Link><a href="/">
                 <h2 className='text-white text-2xl font-bold'>{profile.title}</h2>
-              </a>
+              </a></Link>
             </div>
             <div className="hidden lg:block">
               <ul className="flex items-center">
 
                 <li className="group pl-6">
 
-                  <a href="/#about"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">About</a>
+                  <Link><a href="/#about"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">About</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/#services"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Services</a>
+                  <Link><a href="/#services"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Services</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/#portfolio"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Portfolio</a>
+                  <Link><a href="/#portfolio"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Portfolio</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/#clients"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Clients</a>
+                  <Link><a href="/#clients"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Clients</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/#work"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Work</a>
+                  <Link><a href="/#work"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Work</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/#statistics"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Statistics</a>
+                  <Link><a href="/#statistics"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Statistics</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/blogs"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Blog</a>
+                  <Link><a href="/blogs"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Blog</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
 
-                  <a href="/#contact"
-                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Contact</a>
+                  <Link><a href="/#contact"
+                    className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Contact</a></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
