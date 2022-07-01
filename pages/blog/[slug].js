@@ -86,8 +86,8 @@ const Post = ({ blog, profile, author }) => {
       </>
     </Head>
     <NavBar profile={profile} />
-    {/* <div>
-      <div>
+    <div>
+      {/* <div>
         <div className="container py-6 md:py-10">
           <div className="mx-auto max-w-4xl">
             <div className="">
@@ -173,7 +173,7 @@ const Post = ({ blog, profile, author }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bg-primary">
         <div className="container flex flex-col justify-between py-6 sm:flex-row">
@@ -199,7 +199,7 @@ const Post = ({ blog, profile, author }) => {
           </div>
         </div>
       </div>
-    </div> */}
+    </div>
   </>
 }
 
