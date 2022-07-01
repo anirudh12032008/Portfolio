@@ -110,7 +110,7 @@ const Post = ({ blog, profile, author }) => {
                 </div>
               </div>
             </div>
-            {/* <div className="prose max-w-none pt-8">
+            <div className="prose max-w-none pt-8">
               <PortableText
                 // Pass in block content straight from Sanity.io
                 content={blog.content}
@@ -124,8 +124,8 @@ const Post = ({ blog, profile, author }) => {
                 }}
               />
 
-            </div> */}
-            <div className="mt-10 flex justify-between border-t border-lila py-12">
+            </div>
+            {/* <div className="mt-10 flex justify-between border-t border-lila py-12">
               <Link href="/" className="flex items-center">
                 <i className="bx bx-left-arrow-alt text-2xl text-primary"></i>
                 <span
@@ -137,7 +137,7 @@ const Post = ({ blog, profile, author }) => {
                   Post</span>
                 <i className="bx bx-right-arrow-alt text-2xl text-primary"></i>
               </Link>
-            </div>
+            </div> */}
             <div
               className="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20">
               <div className="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
