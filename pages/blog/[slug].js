@@ -24,12 +24,9 @@ const Post = ({ blog, profile, author }) => {
 
   }, [])
 
-  // if (blog.author === 'Anirudh Sahu') {
-  //   console.log("This is Anirudh Sahu")
-  // }
 
   return <>
-    <Head>
+    {/* <Head>
       <>
         <meta charset="utf-8" />
 
@@ -87,7 +84,7 @@ const Post = ({ blog, profile, author }) => {
 
 
       </>
-    </Head>
+    </Head> */}
     <NavBar profile={profile} />
     <div>
       <div>
