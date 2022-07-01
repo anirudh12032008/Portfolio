@@ -123,7 +123,7 @@ const Post = ({ blog, profile, author }) => {
               // structure without doing any gymnastics
               serializers={{
                 h1: (props) => <h1 {...props} />,
-                li: ({ children }) => <li className="special-list-item">{children}</li>,
+                li: ({ children }) =><li className="special-list-item">{children}</li>,
               }}
             />
 
