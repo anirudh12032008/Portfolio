@@ -8,6 +8,7 @@ import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link'
 import NavBar from '../components/NavBar';
 
+
 export default function Home({ blogs, profile }) {
   const client = createClient({
     projectId: "2ft1oxvh",
