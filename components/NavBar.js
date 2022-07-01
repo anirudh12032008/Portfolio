@@ -19,7 +19,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#about"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">About</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">About</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
