@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavBar = ({ profile }) => {
 
-  return (
+  return (<>
     <div className='bg-[#5540af]'>
       <div>
         <div className="w-full z-50 top-0 py-3 sm:py-5  bg-primary ">
@@ -95,6 +95,7 @@ const NavBar = ({ profile }) => {
       </div>
 
     </div>
+  </>
   )
 }
 
