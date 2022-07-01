@@ -27,7 +27,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#services"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Services</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Services</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -35,7 +35,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#portfolio"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Portfolio</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Portfolio</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -43,7 +43,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#clients"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Clients</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Clients</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -51,7 +51,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#work"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Work</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Work</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -59,7 +59,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#statistics"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Statistics</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Statistics</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -67,7 +67,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/blogs"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Blog</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Blogs</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -75,7 +75,7 @@ const NavBar = ({ profile }) => {
                 <li className="group pl-6">
 
                   <Link href="/#contact"
-                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white">Contact</Link>
+                    className="cursor-pointe pt-0.5  font-semibold uppercase text-white"><p className="text-white">Contact</p></Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
