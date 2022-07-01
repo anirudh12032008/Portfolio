@@ -26,7 +26,7 @@ const Post = ({ blog, profile, author }) => {
 
 
   return <>
-    {/* <Head>
+    <Head>
       <>
         <meta charset="utf-8" />
 
@@ -84,8 +84,8 @@ const Post = ({ blog, profile, author }) => {
 
 
       </>
-    </Head> */}
-    <NavBar profile={profile} />
+    </Head>
+    {/* <NavBar profile={profile} /> */}
     <div>
       <div>
         <div className="container py-6 md:py-10">
