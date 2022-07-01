@@ -87,10 +87,10 @@ const Post = ({ blog, profile, author }) => {
     </Head>
     <NavBar profile={profile} />
     <div>
-      {/* <div>
+      <div>
         <div className="container py-6 md:py-10">
           <div className="mx-auto max-w-4xl">
-            <div className="">
+            {/* <div className="">
               <h1
                 className="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl">
                 {blog.title}
@@ -109,7 +109,7 @@ const Post = ({ blog, profile, author }) => {
                   <span className="block pt-1 font-body text-xl font-bold text-grey-30">{blog.createdAt}</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="prose max-w-none pt-8">
               <PortableText
                 // Pass in block content straight from Sanity.io
@@ -173,7 +173,7 @@ const Post = ({ blog, profile, author }) => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="bg-primary">
         <div className="container flex flex-col justify-between py-6 sm:flex-row">
